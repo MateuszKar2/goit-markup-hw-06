@@ -930,6 +930,7 @@ label > p {
   border: 1px solid black;
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: white;
 }
 .checkmark-wrapper {
   display: flex;
