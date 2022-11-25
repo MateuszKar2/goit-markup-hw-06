@@ -751,7 +751,6 @@ FORM SECTION
   border-radius: 4px;
 }
 .form-signin {
-  position: relative;
   display: inline;
   margin-left: 12px;
 }
@@ -773,13 +772,31 @@ FORM SECTION
   justify-content: center;
   align-items: center;
 
-
 }
-.form-signin svg {
+ .form-signin svg {
   fill: var(--white);
   margin-left: 24px;
 }
-
+.signup-form {
+  display: flex;
+  flex-direction: row;
+}
+.footer-signup {
+  display: flex;
+  align-items: flex-end;
+}
+.footer-forms {
+  display: block;
+}
+.footer-input {
+  width: 358px;
+  height: 50px;
+  color: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(117, 117, 117, 0.3);
+  border-radius: 4px;
+  padding: 16px 15px;
+  background-color: transparent;
+}
 
 /* 
 ===============================
